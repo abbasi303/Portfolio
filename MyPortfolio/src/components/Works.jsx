@@ -67,7 +67,6 @@ className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
   </div>
 </Tilt>
 
-      test
     </motion.div>
   )
 }
@@ -75,18 +74,23 @@ className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
 
 
 
-const Works = () => {
-  return (
-    <>
- <motion.div variants={textVariant()}>
-      <p className={styles.sectionHeadText}>
-My Projects      </p>
-      <h2 className={styles.sectionHeadText}>
-Projects
-      </h2>
+const Works = ({title,description,type}) => {
+  const filteredProjects = projects.filter(project => project.type === type);
 
-    </motion.div> 
-    <div className='w-full flex'>
+  // Use filteredProjects for rendering
+  const totalWidth = filteredProjects.length * 360;
+  return (
+    <> 
+    <motion.div variants={textVariant()}>
+    <p className={styles.sectionHeadText}>
+          {title}
+        </p>
+        <h2 className={styles.sectionSubText}>
+          {description}
+        </h2>
+      </motion.div>
+
+      <div style={{ overflow: 'hidden', width: '100%', marginTop: '20px' }}>
       <motion.p
       variants={fadeIn("","",0.1,1)}
       className='mt-3, text-secondary text-[17px] max-w-3xl leading-[30px]'
@@ -95,18 +99,27 @@ Projects
 
 
       </motion.p>
+        <motion.div
+          drag="x"
+          dragConstraints={{ right: 0, left: -totalWidth }}
+          style={{
+            display: 'flex',
+            overflowX: 'auto',
+            gap: '20px',
+            padding: '20px',
+          }}
+        >
+          {filteredProjects.map((project, index) => (
+            <ProjectCard
+              key={`project-${index}`}
+              index={index}
+              {...project}
+            />
+          ))}
+        </motion.div>
 
-      </div>   
-      <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project,index)=>(
-          <ProjectCard 
-          key={`project-${index}`}
-          index={index}
-          {...project}
           
-          />
-          
-        ) ) }
+        
 
       </div>
 
@@ -116,3 +129,5 @@ Projects
 }
 
 export default SectionWrapper(Works,"")
+
+

@@ -198,12 +198,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "YelpCamp",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "nodejs",
           color: "blue-text-gradient",
         },
         {
@@ -211,35 +211,37 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
-      live_server_link:""
+      source_code_link: "https://github.com/abbasi303/YelpCamp",
+      live_server_link:"https://yelpcamp-3evw.onrender.com",
+      type: "webdev",
     },
     {
-      name: "Job IT",
+      name: "ChirpSphere",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "nextauth",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
-      live_server_link:""
+      source_code_link: "https://github.com/abbasi303/ChirpSphere",
+      live_server_link:"https://chirp-sphere-pt9x-392cgm74s-abbasi303.vercel.app/",
+      type: "webdev",
 
     },
     {
@@ -262,9 +264,40 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
-      live_server_link:""
+      live_server_link:"",
+      type: "datascience"
+
+
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      live_server_link:"",
+      type: "devops"
+
 
     },
   ];
+
+  
   
   export { services, technologies, experiences, testimonials, projects };
+
+
