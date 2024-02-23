@@ -8,7 +8,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import {SectionWrapper} from '../hoc';
 import { textVariant } from '../utils/motion';
 // Assuming you have these images imported or available in your project
-import certificateImage1 from '../assets/AiforE.png';
+import certificateImage1 from '../assets/AIforE.png';
 import certificateImage2 from '../assets/AiGood.png';
 import certificateImage3 from '../assets/WebDev.png';
 // Add more images as needed
