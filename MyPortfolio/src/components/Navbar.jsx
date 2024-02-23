@@ -23,7 +23,7 @@ const Navbar = () => {
         window.scrollTo(0,0);
       }}>
       
-<img src={logo} alt="logo" className='w-9 h-9 object-contain' />{/*change logo in this part (visit logo.com)*/}
+<img src={logo} alt="logo"   className='w-12 h-12 object-contain' />{/*change logo in this part (visit logo.com)*/}
       <p className='text-white text-[18px] font-bold cursor-pointer'>Ussayed Shakeel Abbasi <span className='sm:block hidden'></span></p>
       </Link>
 

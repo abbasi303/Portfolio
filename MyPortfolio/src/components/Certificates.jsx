@@ -8,9 +8,9 @@ import 'react-vertical-timeline-component/style.min.css';
 import {SectionWrapper} from '../hoc';
 import { textVariant } from '../utils/motion';
 // Assuming you have these images imported or available in your project
-import certificateImage1 from '../assets/carrent.png';
-import certificateImage2 from '../assets/carrent.png';
-import certificateImage3 from '../assets/carrent.png';
+import certificateImage1 from '../assets/AiforE.png';
+import certificateImage2 from '../assets/AiGood.png';
+import certificateImage3 from '../assets/WebDev.png';
 // Add more images as needed
 
 function Certificates() {
@@ -55,19 +55,19 @@ function Certificates() {
               <div ref={swiperRef} className="swiper-container">
                   <div className="swiper-wrapper">
                       <div className="swiper-slide">
-                      <Link to="/your-path">
+                      <Link to="https://coursera.org/share/13c509b53e3f5299a1c7d599b0ed8ace">
 
                           <img src={certificateImage1} alt="Certificate" className="rounded-lg object-cover" />
                           </Link>
                       </div>
                       <div className="swiper-slide">
-                      <Link to="/your-path">
+                      <Link to="https://coursera.org/share/4a7d9d21eb20ca200202c3a88a06962c">
 
                           <img src={certificateImage2} alt="Certificate" className="rounded-lg object-cover" />
                       </Link>
                       </div>
                       <div className="swiper-slide">
-                      <Link to="/your-path">
+                      <Link to="https://drive.google.com/file/d/1_a2osAHs1cxXYkoJfsnD-v9Y3U4e9oKY/view?usp=drive_link">
 
                           <img src={certificateImage3} alt="Certificate" className="rounded-lg object-cover" />
                       </Link>

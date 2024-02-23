@@ -8,7 +8,6 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
@@ -23,6 +22,15 @@ import {
     jobit,
     tripguide,
     threejs,
+    Hook,
+    Pecs,
+    Studev,
+    lawrence,
+    pecs,
+    nextjs
+
+
+
   } from "../assets";
   
   export const navLinks = [
@@ -46,15 +54,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Next-JS Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Data Science",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "DevOps",
       icon: creator,
     },
   ];
@@ -81,8 +89,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "Tailwind CSS",
@@ -113,60 +121,69 @@ import {
       icon: docker,
     },
   ];
-  
+  const academics = [
+
+    {
+      title: "Lawrence College Murree",
+      company_name: "Highschool",
+      icon: lawrence,
+      iconBg: "white",
+      date: "June 2018 - July 2020",
+      points: ["Achieved 945/1100 marks.",
+      "Enhanced declamation and debating skills, participating in the English-Speaking Union Public Speaking Contest (Runner Up, 2019).",
+      "Organized and presided as Secretary General at the Lawrence College Model United Nations 2019.",
+      "Appointed Student Editor of the college magazine “Gallian”, showcasing exceptional reading and writing skills.",
+      "Awarded Certificate of Merit by Walker House for outstanding sports, academic, and conduct performance.",
+      "Received Certificate of Merit for leadership in Lawrence College Model United Nations 2019. "
+    ],
+    },
+    {
+      title: "University of Pecs",
+      company_name: "University of Pecs", 
+      icon: pecs,
+      iconBg: "white",
+      date: "September 2021 - July 2024",
+      points: [
+        "Excellent Computer Science record at University of Pécs, with 168 credit points and a 4.11 average grade.",
+        "Proficient in Python, C++, JavaScript, web development (HTML, CSS, Node.js, Express), and SQL databases.",
+        "Developed a sample NFT trade website, showcasing web development skills and understanding of emerging technologies.",
+        "Seeking an internship or part-time job in the tech industry to gain practical experience and become a versatile developer.",
+        "Committed to continuous learning, effective communicator, natural leader, recipient of the Stipendium Hungaricum Scholarship."
+      ],
+    },
+   
+  ];
   const experiences = [
+
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "HOOK Student Mentor",
+      company_name: "Hook",
+      icon: Hook,
+      iconBg: "white",
+      date: "June 2022 - June 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Offered guidance on course selection, study strategies, and timemanagement to help mentees succeed academically.",
+        "Fostered effective communication and collaboration between mentees andvarious resources, such as professors, counselors, and career services.",
+        "Maintained accurate records of the mentorship relationship, trackingprogress, and documenting outcomes to measure effectiveness and enhancethe mentoring experience."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Frontend Developer",
+      company_name: "Studev",
+      icon: Studev,
+      iconBg: "black",
+      date: "September 2023 - March 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Intern at the University of Pécs, Studev Organization",
+        "Developed a website for connecting students with companies offering thesisinternships and graduate opportunities",
+        "Utilized Typescript and React stack for front-end development, enhancinguser interface and experience",
+        "Implemented Tailwind CSS for efficient styling and responsive design",
+        "Employed Spring Java and PostgreSQL for robust back-end functionality,ensuring reliable data management and processing",
+        "Facilitated seamless integration between front-end and back-end systems,contributing to the overall efficiency of the platform",
+        "Engaged in collaborative development, aligning project goals withorganizational objectives and student needs"
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
   ];
   
   const testimonials = [
@@ -240,7 +257,7 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/abbasi303/ChirpSphere",
-      live_server_link:"https://chirp-sphere-pt9x-392cgm74s-abbasi303.vercel.app/",
+      live_server_link:"https://chirp-sphere.vercel.app/",
       type: "webdev",
 
     },
@@ -298,6 +315,6 @@ import {
 
   
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, academics, technologies, experiences, testimonials, projects };
 
 
