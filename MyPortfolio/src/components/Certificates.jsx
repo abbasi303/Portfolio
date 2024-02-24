@@ -67,7 +67,7 @@ function Certificates() {
                       </Link>
                       </div>
                       <div className="swiper-slide">
-                      <Link to="https://drive.google.com/file/d/1_a2osAHs1cxXYkoJfsnD-v9Y3U4e9oKY/view?usp=drive_link">
+                      <Link to="https://www.udemy.com/certificate/UC-6f06dae8-22bc-4bdf-8482-b5ba3e346442/">
 
                           <img src={certificateImage3} alt="Certificate" className="rounded-lg object-cover" />
                       </Link>
