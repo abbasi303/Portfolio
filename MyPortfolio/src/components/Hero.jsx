@@ -66,7 +66,7 @@ const Hero = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}> 
                 <h1 className={`${styles.heroHeadText} text-white`} >{`Hi! I am `}<span className='text-[#915eff]'>{`Ussayed `}</span> 
-                <span className="txt-rotate"  style={{ height: '50px', width: '200px', display: 'inline-block', verticalAlign: 'top'  }} dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'>
+                <span className="txt-rotate"  style={{ height: '50px', width: '200px', display: 'inline-block', verticalAlign: 'top'  }}  data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'>
                   <span className="wrap" style={{ borderRight: '0.08em solid #666' }} >{text}</span></span></h1>
               </div>}
             </TrackVisibility>
