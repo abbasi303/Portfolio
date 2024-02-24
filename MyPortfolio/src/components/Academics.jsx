@@ -54,7 +54,7 @@ const Academics = () => {
         My Education
       </p>
       <h2 className={styles.sectionSubText}>
-        Academics
+        Here are some of the academic milestones that I have achieved over the years.
 
       </h2>
 
