@@ -139,7 +139,7 @@ import {
     },
     {
       title: "University of Pecs",
-      company_name: "University of Pecs", 
+      company_name: "Bachelors in Computer Science", 
       icon: pecs,
       iconBg: "white",
       date: "September 2021 - July 2024",
@@ -217,7 +217,7 @@ import {
     {
       name: "YelpCamp",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application that enables users to upload camps and view, comment, and rate other users' camps.It is a MEAN stack application that uses RESTful routing and CRUD operations. It also includes user authentication and authorization along with sessions .",
       tags: [
         {
           name: "nodejs",
@@ -240,7 +240,7 @@ import {
     {
       name: "ChirpSphere",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that is designed as a clone of x Twitter. It is a full-stack application that uses Next.js, NextAuth, and Tailwind CSS. It includes user authentication and authorization, user posts, and user profiles.",
       tags: [
         {
           name: "nextjs",

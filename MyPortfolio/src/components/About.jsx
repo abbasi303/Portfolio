@@ -58,8 +58,11 @@ const About = () => {
     className='mt-4 text-secondary text-[17px]
     max-w-3xl leading-[30px]'
     >
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quasi doloribus itaque reprehenderit iure quos dolor porro eligendi quae omnis. Eum iure quo aliquam quia dignissimos adipisci sint in cum.
-    </motion.p>
+Hi, I’m Ussayed Shakeel Abbasi, a CS student at the University of Pécs, Hungary, with a passion for web development and AI. I have a Stipendium Hungaricum Scholarship and skills in Python, C++, SQL, Laravel, Angular, and React.js. I have experience as a mentor and frontend developer intern, working on various projects.
+
+I love learning new technologies and improving my craft. My portfolio shows my projects, from simple interfaces to complex backend solutions, all with high quality and creativity.
+
+Check out my portfolio to see how my tech journey and skills can help your projects. Let’s connect and create something amazing in this dynamic field of web development and AI. Welcome to my world of innovation and growth.    </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service,index) =>(

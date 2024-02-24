@@ -15,7 +15,7 @@ function App() {
             <Academics/>
             <Experience/>
             <Tech/>
-            <Works title="Projects" description="Some description" type="webdev" />
+            <Works title="Projects" description="" type="webdev" />
             {/* <Works title="Data Science Projects" description="Some description" type="datascience" /> */}
             <Certificates/>
 

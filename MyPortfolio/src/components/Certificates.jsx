@@ -45,7 +45,7 @@ function Certificates() {
           Certificates
                     </p>
           <h2 className={styles.sectionSubText}>
-              MY CERIDCATES
+            Here are some of the certificates that I have earned over the years.
 
           </h2>
 
