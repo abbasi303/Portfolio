@@ -1,6 +1,5 @@
 import {motion } from 'framer-motion'
 import { styles } from '../styles'
-import ComputersCanvas from './canvas/ComputersCanvas'
 
 import TrackVisibility from 'react-on-screen';
 import { useState, useEffect } from 'react';
@@ -12,7 +11,6 @@ const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
   const period = 2000;
 
@@ -37,15 +35,11 @@ const Hero = () => {
 
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
-      setIndex(prevIndex => prevIndex - 1);
       setDelta(period);
     } else if (isDeleting && updatedText === '') {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setIndex(1);
       setDelta(500);
-    } else {
-      setIndex(prevIndex => prevIndex + 1);
     }
   }
 
@@ -77,9 +71,6 @@ const Hero = () => {
                 </div>}
             </TrackVisibility>
     
-
-          <ComputersCanvas />
-
           <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
             <a href="#about">
               <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>

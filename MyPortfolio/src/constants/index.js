@@ -14,16 +14,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
     Hook,
-    Pecs,
     Studev,
     lawrence,
     pecs,
@@ -103,10 +97,6 @@ import {
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
@@ -316,5 +306,3 @@ import {
   
   
   export { services, academics, technologies, experiences, testimonials, projects };
-
-
