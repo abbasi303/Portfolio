@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 import { BrowserRouter } from 'react-router-dom'
-import {About, Contact, Experience, Feedbacks,Hero,Navbar,Tech,Works,StarsCanvas, Certificates, Academics} from './components'
+import {About, Contact, Experience, Hero, Navbar, Tech, Works, Certificates, Academics} from './components'
 
 function App() {
   return (

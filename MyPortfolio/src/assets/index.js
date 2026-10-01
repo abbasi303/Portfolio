@@ -19,7 +19,6 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -35,7 +34,7 @@ import tripguide from "./tripguide.png";
 
 import lawrence from "./lawrence.png";
 import pecs from "./pecs.png";
-import nextjs from "./tech/nextjs.png";;
+import nextjs from "./tech/nextjs.png";
 
 
 export {
@@ -59,7 +58,6 @@ export {
   reactjs,
   tailwind,
   typescript,
-  threejs,
   meta,
   shopify,
   starbucks,
